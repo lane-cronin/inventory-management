@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -106,6 +107,9 @@ export default {
     title: 'Orders',
     description: 'View and manage customer orders',
     allOrders: 'All Orders',
+    submittedOrders: 'Submitted Orders',
+    leadTimeDays: '{days} days',
+    leadTime: 'Lead Time',
     totalOrders: 'Total Orders',
     totalRevenue: 'Total Revenue',
     avgOrderValue: 'Avg Order Value',
@@ -188,6 +192,42 @@ export default {
     }
   },
 
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Plan restock orders from demand forecasts within your budget',
+    budgetLabel: 'Available Budget',
+    plannedSpend: 'Planned Spend',
+    remainingBudget: 'Remaining Budget',
+    itemsSelected: 'Items Selected',
+    recommendationsTitle: 'Restock Recommendations',
+    noRecommendations: 'No restock recommendations - all items are stocked to target',
+    placeOrder: 'Place Order',
+    submitting: 'Submitting...',
+    orderPlaced: 'Order {orderNumber} placed successfully.',
+    viewOrders: 'View in Orders',
+    withinBudget: 'Within Budget',
+    overBudget: 'Over Budget',
+    table: {
+      sku: 'SKU',
+      itemName: 'Item Name',
+      category: 'Category',
+      warehouse: 'Warehouse',
+      onHand: 'On Hand',
+      recommendedQty: 'Recommended Qty',
+      unitCost: 'Unit Cost',
+      totalCost: 'Total Cost',
+      urgency: 'Urgency',
+      leadTime: 'Lead Time',
+      budgetStatus: 'Budget Status'
+    },
+    urgency: {
+      high: 'High',
+      medium: 'Medium',
+      low: 'Low'
+    }
+  },
+
   // Filters
   filters: {
     timePeriod: 'Time Period',
@@ -204,6 +244,7 @@ export default {
     shipped: 'Shipped',
     processing: 'Processing',
     backordered: 'Backordered',
+    submitted: 'Submitted',
     inStock: 'In Stock',
     lowStock: 'Low Stock',
     adequate: 'Adequate'

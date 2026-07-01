@@ -35,5 +35,10 @@ recent_transactions = load_json_file('transactions.json')
 # Load purchase orders
 purchase_orders = load_json_file('purchase_orders.json')
 
+# Restock orders submitted via the Restocking tab.
+# In-memory only (no JSON backing file) — starts empty and resets on server restart,
+# matching the app's no-persistence pattern.
+restock_orders = []
+
 # All data is now loaded from JSON files in the data/ directory
 # This allows for easier maintenance and updates of the sample data

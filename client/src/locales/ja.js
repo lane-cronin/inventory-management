@@ -6,6 +6,7 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    restocking: '補充',
     companyName: '触媒コンポーネンツ',
     subtitle: '在庫管理システム'
   },
@@ -106,6 +107,9 @@ export default {
     title: '注文',
     description: '顧客注文の表示と管理',
     allOrders: 'すべての注文',
+    submittedOrders: '発注済み注文',
+    leadTimeDays: '{days}日',
+    leadTime: 'リードタイム',
     totalOrders: '総注文数',
     totalRevenue: '総収益',
     avgOrderValue: '平均注文額',
@@ -188,6 +192,42 @@ export default {
     }
   },
 
+  // Restocking
+  restocking: {
+    title: '補充',
+    description: '予算内で需要予測に基づく補充注文を計画',
+    budgetLabel: '利用可能予算',
+    plannedSpend: '予定支出',
+    remainingBudget: '残り予算',
+    itemsSelected: '選択品目数',
+    recommendationsTitle: '補充推奨',
+    noRecommendations: '補充推奨はありません - すべての品目が目標在庫に達しています',
+    placeOrder: '注文する',
+    submitting: '送信中...',
+    orderPlaced: '注文{orderNumber}が正常に送信されました。',
+    viewOrders: '注文で確認',
+    withinBudget: '予算内',
+    overBudget: '予算超過',
+    table: {
+      sku: 'SKU',
+      itemName: '品目名',
+      category: 'カテゴリ',
+      warehouse: '倉庫',
+      onHand: '手持在庫',
+      recommendedQty: '推奨数量',
+      unitCost: '単価',
+      totalCost: '合計金額',
+      urgency: '緊急度',
+      leadTime: 'リードタイム',
+      budgetStatus: '予算状況'
+    },
+    urgency: {
+      high: '高',
+      medium: '中',
+      low: '低'
+    }
+  },
+
   // Filters
   filters: {
     timePeriod: '期間',
@@ -204,6 +244,7 @@ export default {
     shipped: '出荷済み',
     processing: '処理中',
     backordered: 'バックオーダー',
+    submitted: '発注済み',
     inStock: '在庫あり',
     lowStock: '在庫僅少',
     adequate: '適量'
@@ -359,7 +400,8 @@ export default {
     '48V DC Power Supply Unit': '48V DC電源ユニット',
     'USB-C PD 100W Power Supply': 'USB-C PD 100W電源',
     'Battery Backup Power Supply': 'バッテリバックアップ電源',
-    'Adjustable Bench Power Supply': '可変ベンチ電源'
+    'Adjustable Bench Power Supply': '可変ベンチ電源',
+    'Logic Controller Board': 'ロジックコントローラボード'
   },
 
   // Customer Names
