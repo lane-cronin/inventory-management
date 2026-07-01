@@ -382,5 +382,29 @@
     "unit_cost": 185.50,
     "location": "Warehouse C-11",
     "last_updated": "2025-09-21T15:20:00"
+  },
+  {
+    "id": "33",
+    "sku": "SNR-420",
+    "name": "Temperature Sensor Module",
+    "category": "Sensors",
+    "warehouse": "San Francisco",
+    "quantity_on_hand": 60,
+    "reorder_point": 80,
+    "unit_cost": 72.50,
+    "location": "Warehouse A-18",
+    "last_updated": "2025-09-30T10:30:00"
+  },
+  {
+    "id": "34",
+    "sku": "CTL-330",
+    "name": "Logic Controller Board",
+    "category": "Controllers",
+    "warehouse": "London",
+    "quantity_on_hand": 40,
+    "reorder_point": 60,
+    "unit_cost": 54.25,
+    "location": "Warehouse B-18",
+    "last_updated": "2025-09-30T10:30:00"
   }
 ]
